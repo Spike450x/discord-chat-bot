@@ -12,6 +12,6 @@ module.exports = {
         .addField('Pledge Class', 'TBA\nTBA')
         .setThumbnail('https://www.rsu.edu/wp-content/uploads/2019/08/APO-Logo.png')
         message.channel.send(embed);
-        message.channel.send("Please check your inbox! :smile:")
+        //message.channel.send("Please check your inbox! :smile:")
     }
 }

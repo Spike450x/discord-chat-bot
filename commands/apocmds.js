@@ -9,7 +9,8 @@ module.exports = {
         .setTitle("Horton APO Commands")
         .setDescription("Here are all the APO bot commands I can do! Try them out!")
         .setThumbnail('https://www.rsu.edu/wp-content/uploads/2019/08/APO-Logo.png')
-        .addField('!bylaws', 'This command will upload the most updated bylaws of the Psi Omega chapter.')
+            .addField('!bylaws', 'This command will upload the most updated bylaws of the Psi Omega chapter.')
+            .addField('!christmas', 'This command will upload a countdown for christmas.')
         .addField('!eboard', 'This command will upload the executive boards contact information.')
         .addField('!finance', 'This command will upload Psi Omega\'s Cash App information.')
         .addField('!greek', 'This command will upload the greek alphabet.')
@@ -23,7 +24,6 @@ module.exports = {
         .addField('!relay', 'This command will take you to our relay for life fundraising page.')
         .addField('!risk', 'This command will upload the proper risk managment order to follow.')
         .addField('!scoutInfo', 'This command will upload the scout oath and the scout law.')
-        .addField('!summer', 'This command will upload a countdown for the start of summer.')
         .addField('!toast', 'This command will upload the toast song');
         message.channel.send(embed);
     }

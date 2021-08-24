@@ -14,9 +14,9 @@ module.exports = {
         .addField('Instagram', 'https://www.instagram.com/apo_ucf/')
         .addField('Youtube', 'https://www.youtube.com/channel/UCV05luFntQPwU9PvX2hXV-w/')
         .addField('Facebook', 'https://www.facebook.com/PsiOmega')
-        .addField('Psi Omega Website', 'https://www.apoucf.org/')
+            .addField('Psi Omega Website', 'https://www.apoonline.org/psiomega/index.php')
         .addField('Alpha Phi Omega Website', 'https://apo.org/');
         message.channel.send(embed);
-        message.channel.send("Please check your inbox! :smile:")
+        //message.channel.send("Please check your inbox! :smile:")
     }
 }

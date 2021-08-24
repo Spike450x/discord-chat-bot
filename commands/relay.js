@@ -11,6 +11,6 @@ module.exports = {
         .setDescription("Please follow this link to be taken to our relay for life fundraising page!")
         .setThumbnail('https://www.rsu.edu/wp-content/uploads/2019/08/APO-Logo.png')
         message.channel.send(embed);
-        message.channel.send("Please check your inbox! :smile:")
+        //message.channel.send("Please check your inbox! :smile:")
     }
 }
