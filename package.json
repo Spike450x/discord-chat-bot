@@ -1,14 +1,5 @@
 {
-  "name": "Chat",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "keywords": [],
   "author": "",
-  "license": "ISC",
   "dependencies": {
     "common-tags": "^1.8.0",
     "discord.js": "^11.5.1",
@@ -17,5 +8,14 @@
     "random-puppy": "^1.1.0",
     "weather-js": "^2.0.0",
     "weather.js": "^0.1.0"
-  }
+  },
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "Chat",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "version": "V.0.2"
 }

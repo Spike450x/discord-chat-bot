@@ -28,6 +28,6 @@ module.exports = {
         .addField('4 C\'s of service', 'Chapter, Campus, Community, Country', true)
         .addField('Region and Section', 'Region K Section 2', true)
         message.channel.send(embed);
-        message.channel.send("Please check your inbox! :smile:")
+        //message.channel.send("Please check your inbox! :smile:")
     }
 }
