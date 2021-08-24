@@ -1,11 +1,12 @@
 const {RichEmbed} = require('discord.js');
 
 module.exports = {
-    name: 'summer',
-    description: 'Outputs a countdown until summer 2020',
+    name: 'christmas',
+    description: 'Outputs a countdown until Christmas 2021',
     execute(message) {
         // Set the date we're counting down to
-        var countDownDate = new Date("April 28, 2020").getTime();
+        var countDownDate = new Date("December 25, 2021").getTime();
+
         // Get today's date and time
         var now = new Date().getTime();
 
@@ -19,7 +20,7 @@ module.exports = {
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
         const embed = new RichEmbed()
         .setColor(0xFF0000)
-        .setTitle('Summer 2020 Countdown!')
+        .setTitle('Christmas 2021 Countdown!')
         .setThumbnail('https://www.rsu.edu/wp-content/uploads/2019/08/APO-Logo.png')
         .setDescription(days + " days\n" + hours + " hours\n" + minutes + " minutes\n" + seconds + " seconds");
         message.channel.send(embed);

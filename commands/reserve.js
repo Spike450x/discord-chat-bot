@@ -13,7 +13,7 @@ module.exports = {
         .addField('Normal Classroom', 'https://registrar.ucf.edu/classroom-reservations/')
         .addField('Patio Space', 'https://studentunion.ucf.edu/reservations/patio-space-stage')
         .addField('Banner Space', 'https://studentunion.ucf.edu/reservations/banner-space')
-        message.author.send(embed);
+        message.channel.send(embed);
         message.channel.send("Please check your inbox! :smile:")
     }
 }
