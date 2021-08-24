@@ -1,6 +1,6 @@
 // Connect bot to proper files
 const Discord = require('discord.js');
-const {prefix, token, /*giphyToken*/} = require('./config.json');
+const {prefix, token, giphyToken} = require('./config.json');
 const client = new Discord.Client();
 
 // Opens Commands File
@@ -54,8 +54,8 @@ client.on('message', message => {
         case 'scoutInfo':
             client.commands.get('scoutInfo').execute(message);
             break;
-        case 'summer':
-            client.commands.get('summer').execute(message);
+        case 'christmas':
+            client.commands.get('christmas').execute(message);
             break;
         case 'motivate':
             client.commands.get('motivate').execute(message);

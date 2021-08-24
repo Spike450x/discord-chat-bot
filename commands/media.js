@@ -16,7 +16,7 @@ module.exports = {
         .addField('Facebook', 'https://www.facebook.com/PsiOmega')
         .addField('Psi Omega Website', 'https://www.apoucf.org/')
         .addField('Alpha Phi Omega Website', 'https://apo.org/');
-        message.author.send(embed);
+        message.channel.send(embed);
         message.channel.send("Please check your inbox! :smile:")
     }
 }

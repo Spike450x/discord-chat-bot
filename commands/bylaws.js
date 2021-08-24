@@ -9,7 +9,7 @@ module.exports = {
         .setTitle('Psi Omega Bylaws')
         .setDescription('This document is the most updated bylaws of Psi Omega chapter!')
         .setThumbnail('https://www.rsu.edu/wp-content/uploads/2019/08/APO-Logo.png')
-        .attachFile('./Bylaws_11_20_19.pdf')
+        .attachFile('./Bylaws_5_18_21.pdf')
         message.author.send(embed);
         message.channel.send("Please check your inbox! :smile:")
     }
